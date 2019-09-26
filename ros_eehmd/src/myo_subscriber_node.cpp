@@ -13,7 +13,7 @@ void chatterCallback(const ros_eehmd::EmgArrayConstPtr& myo_msg )
 
 int main(int argc, char **argv)
 {
- ros::init(argc, argv, "myo_subscriber");
+ ros::init(argc, argv, "myo_subscriber_node");
 
  ros::NodeHandle n;
 

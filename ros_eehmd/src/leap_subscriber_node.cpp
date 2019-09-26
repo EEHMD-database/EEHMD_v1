@@ -10,7 +10,7 @@ void chatterCallback(const ros_eehmd::leapmsgConstPtr& leap_msg )
 
 int main(int argc, char **argv)
 {
- ros::init(argc, argv, "leap_motion_subscriber");
+ ros::init(argc, argv, "leap_subscriber_node");
 
  ros::NodeHandle n;
 

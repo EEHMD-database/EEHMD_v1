@@ -57,7 +57,7 @@ void callback(const ros_eehmd::leapmsgConstPtr& leap_msg, const ros_eehmd::EmgAr
 
 int main(int argc, char **argv)
 {
- ros::init(argc, argv, "write_csv");
+ ros::init(argc, argv, "ros_to_csv");
  ros::NodeHandle n;
 //load EMG topic
 message_filters::Subscriber<EmgArray> submyo(n,"myo_raw/myo_emg", 100);
