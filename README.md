@@ -67,4 +67,4 @@ For example, once the node is running:
 rosparam set file_name test_name
 rosparam set recording true
 ```
-To stop writting csv, set the "recording" parameter to false.
+To stop writting csv files, set the "recording" parameter to false.
